@@ -1,0 +1,6 @@
+# Codex Configuration
+# Try setting custom API base URL
+
+[api]
+# DashScope compatible mode
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
