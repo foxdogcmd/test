@@ -1,6 +1,9 @@
-# Codex Configuration
-# Try setting custom API base URL
-
-[api]
-# DashScope compatible mode
+# Use Alibaba Cloud DashScope as the model provider
+[model_providers.dashscope]
+name = "DashScope"
 base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "chat"
+
+model_provider = "dashscope"
+model = "qwen-turbo"
